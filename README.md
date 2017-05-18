@@ -3,14 +3,16 @@
 
 | Activité  	|  Heures	|  Compte rendu 	| 
 |---	|---	|---	|
-|  FOSDEM 	|  10h 	|  [ ] 	|
-|  Technofutur C# 	| 10h  	|  [ ] 	| 
-|  Technofutur TSQL	|  10h 	|   [ ]	|
-|  Technofutur Serveur SQL	| 10h  	|   [ ]	|
-|  Technofutur Java	|  10h 	|   [ ]	|
-|  Technofutur ASP MVC 	|   10h	|   [ ]	|
-|   JPO	|  3h 	|   [ ]	|
-|   Econocom	|  4h 	|   [ ]	|
-|  Semaine Internationnale 	|   10h	|   [ ]	|
-| Conference TDD | 2h ? | [ ] |
+|  FOSDEM 	|  10h 	|  Not yet	|
+|  Technofutur C# 	| 10h  	|  Not yet 	| 
+|  Technofutur TSQL	|  10h 	|   Not yet	|
+|  Technofutur Serveur SQL	| 10h  	|   Not yet	|
+|  Technofutur Java	|  10h 	|   Not yet|
+|  Technofutur ASP MVC 	|   10h	|   Not yet	|
+|   JPO	|  2h 	|   Not yet	|
+|   Econocom	|  4h 	|  Not yet	|
+|  Semaine Internationnale 	|   10h	|   Not yet	|
+| Conference TDD | 1h | Not yet |
+| Speed-dating avec les 3TI |  2h | Not yet |
 | **_TOTAL_ : 79h** |
+
