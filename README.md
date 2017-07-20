@@ -16,3 +16,8 @@
 | Speed-dating avec les 3TI |  2h | Not yet |
 | **_TOTAL_ : 79h** |
 
+Remarques :  
+- mettre CV
+- mettre les flyers des spectacles/regie
+- photo moi as benevoles
+- lien vers linkedin (et mettre a jour le compte)
