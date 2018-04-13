@@ -15,6 +15,7 @@
 | Conference TDD | 1h | Not yet |
 | Speed-dating avec les 3TI |  2h | Not yet |
 | Odoo Developers Day | 4h | Not yet |
+| Témoignage Pour Ephec | ?h | Not yet| 
 | **_TOTAL_ : 83h** |
 
 Remarques :  
