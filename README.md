@@ -15,8 +15,11 @@
 | Conference TDD | 1h | Not yet |
 | Speed-dating avec les 3TI |  2h | Not yet |
 | Odoo Developers Day | 4h | Not yet |
-| Témoignage Pour Ephec | ?h | Not yet| 
-| **_TOTAL_ : 83h** |
+| Témoignage Pour Ephec | 4h | Not yet| 
+| DevDay Mic | 8h | Not yet | 
+| Présentation Big Data par le MIC | 4h | Not Yet|
+|Visite EVS | 3h | Not yet | 
+| **_TOTAL_ : 102h** |
 
 Remarques :  
 - mettre CV
