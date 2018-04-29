@@ -19,7 +19,7 @@
 | DevDay Mic | 8h | Not yet | 
 | Présentation Big Data par le MIC | 4h | Not Yet|
 |Visite EVS | 3h | Not yet | 
-| **_TOTAL_ : 102h** |
+| **_TOTAL_ :** | **102h**||
 
 Remarques :  
 - mettre CV
