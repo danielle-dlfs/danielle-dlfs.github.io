@@ -9,8 +9,16 @@
 		<title>Portfolio DD</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- <link rel="icon" href="images/avatar.jpg" sizes="32x32" type="image/jpg"> -->
+		<link rel="icon" href="images/avatar.jpg" sizes="32x32" type="image/jpg">
+		<!-- SCRIPTS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	</head>
 	<body class="is-preload">
 
@@ -25,7 +33,7 @@
 							<h1>Danielle Delfosse</h1>
 						</div>
 					<!-- Nav -->
-						<nav id="nav">
+						<div id="nav">
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
@@ -33,7 +41,7 @@
 								<li><a href="#gallery" id="gallery-link"><span class="icon fa-picture-o">Galerie</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
-						</nav>
+						</div>
 
 				</div>
 
@@ -42,7 +50,7 @@
 					<!-- Social Icons -->
 						<ul class="icons">
 							<li><a href="https://twitter.com/DanielleDlfs" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://messenger.com/t/danielledelfosse21099" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://messenger.com/t/danielledelfosse2109" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="https://github.com/danielle-dlfs/" class="icon fa-github"><span class="label">Github</span></a></li>
 							<li><a href="mailto:delfosse.da@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
@@ -59,14 +67,9 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">PortFolio</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2 class="alt">Bienvenue sur mon PortFolio</h2>
+								<p><strong>Je suis Danielle Delfosse, étudiante en dernière année de Bachelier en <br>Technologie de l'informatique à l'EPHEC Louvain-la-Neuve</strong></p>
 							</header>
-							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
-							</footer>
-
 						</div>
 					</section>
 
@@ -78,13 +81,49 @@
 							<h2>About Me</h2>
 						</header>
 
-						<p>tableau d'information generale sur moi </p>
-						<p> texte sur moi </p>
-						<p> mettre bouton CV </p>
-						<p>tableau d'information generale sur moi </p>
-						<p> texte sur moi </p>
-						<p> mettre bouton CV </p>
+						<div class="container">
+							<hr class="star-dark mb-5">
+							<div class="row">
+								<div class="col-lg-6 ml-auto">
+									<table class="table table-hover">
+										<tbody>
+											<tr>
+												<th colspan="2"><h3><span class="fa fa-user-secret"> Danielle Delfosse</span></h3></th>
+											</tr>
+											<tr>
+												<th class="font-weight-bold lead">Age</th>
+												<td class="lead">23 ans</td>
+											</tr>
+											<tr>
+												<th class="font-weight-bold lead">Ville</th>
+												<td class="lead" >Hannut, Belgique</td>
+											</tr>
+											<tr>
+												<th class="font-weight-bold lead">Email</th>
+												<td class="lead">delfosse.da@gmail.com</td>
+											</tr>
+											<tr>
+												<th class="font-weight-bold lead">Telephone</th>
+												<td class="lead">+32 498 63 09 11</td>
+											</tr>
+											<tr>
+												<th class="font-weight-bold lead">Permis de conduire</th>
+												<td class="lead">B (2 ans)</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 
+								<div class="col-lg-5 mr-auto text-justify">
+									<h4>Biographie</h4>
+									<!-- <p class="lead">Born in the 90s and children of new technologies, so I naturally decided to study computer science.<br>
+										I am therefore for several years studying at the Ephec of Louvain la Neuve.<br>
+										I like web development and network administration. I also like traveling and human contact.
+									</p> -->
+									<p><em>Available soon</em></p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 
@@ -95,7 +134,9 @@
 							<header>
 								<h2>Portfolio</h2>
 							</header>
-							<p>thumbnail de chaque truc </p>
+							<hr class="star-dark mb-5">
+							<p><em>Available soon</em></p>
+							<!-- <p>utiliser la maniere de l'autre template pour afficher toutes les activités </p>
 							<p>tableau en bouton modal (popup)</p>
 							<ol>
 								<li>conférences odoo (dev days x2 + conférence ephec - 9,25h)</li>
@@ -110,56 +151,85 @@
 									(JPO - Temoignage - Speed-dating : 8h)
 								</li>
 							</ol>
-							<table>
-								<tr>
-								  <th>Activité</th>
-								  <th>Lieu</th>
-								  <th>Date</th>
-								  <th>Heures Prestées</th>
-								  <th>Heures Valorisables</th>
-								  <th>Preuves</th>
-								</tr>
-								<tr>
-								  <td>FOSDEM</td>
-								  <td>Bruxelles</td>
-								  <td>02-2017</td>
-								  <td>15H</td>
-								  <td>10H</td>
-								  <td>###</td>
-								</tr>
-								<tr>
-									<td>FOSDEM</td>
-									<td>Bruxelles</td>
-									<td>02-2017</td>
-									<td>15H</td>
-									<td>10H</td>
-									<td>###</td>
-								  </tr>
-								  <tr>
-									<td>FOSDEM</td>
-									<td>Bruxelles</td>
-									<td>02-2017</td>
-									<td>15H</td>
-									<td>10H</td>
-									<td>###</td>
-								  </tr>
-								  <tr>
-									<td>FOSDEM</td>
-									<td>Bruxelles</td>
-									<td>02-2017</td>
-									<td>15H</td>
-									<td>10H</td>
-									<td>###</td>
-								  </tr>
-								  <tr>
-									<td>FOSDEM</td>
-									<td>Bruxelles</td>
-									<td>02-2017</td>
-									<td>15H</td>
-									<td>10H</td>
-									<td>###</td>
-								  </tr>
-							  </table>
+							 -->
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+								Tableau récapitulatif du portfolio
+							</button>
+								
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Tableau récapitulatif du portfolio</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<!-- <div class="modal-body">
+												<table>
+														<thead>
+															<tr>
+																<th> Activité</th>
+																<th>Lieu</th>
+																<th>Date</th>
+																<th>Heures Prestées</th>
+																<th>Heures Valorisables</th>
+																<th>Preuves</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>FOSDEM</td>
+																<td>Bruxelles</td>
+																<td>02-2017</td>
+																<td>15H</td>
+																<td>10H</td>
+																<td>###</td>
+															</tr>
+															<tr>
+																<td>FOSDEM</td>
+																<td>Bruxelles</td>
+																<td>02-2017</td>
+																<td>15H</td>
+																<td>10H</td>
+																<td>###</td>
+															</tr>
+															<tr>
+																<td>FOSDEM</td>
+																<td>Bruxelles</td>
+																<td>02-2017</td>
+																<td>15H</td>
+																<td>10H</td>
+																<td>###</td>
+															</tr>
+															<tr>
+																<td>FOSDEM</td>
+																<td>Bruxelles</td>
+																<td>02-2017</td>
+																<td>15H</td>
+																<td>10H</td>
+																<td>###</td>
+															</tr>
+															<tr>
+																<td>FOSDEM</td>
+																<td>Bruxelles</td>
+																<td>02-2017</td>
+																<td>15H</td>
+																<td>10H</td>
+																<td>###</td>
+															</tr>
+														</tbody>
+													  </table>
+										</div> -->
+										<div class="modal-body"><p><em>Available soon</em></p></div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+									</div>
+								</div>
 						</div>
 					</section>
 				<!-- Galerie -->
@@ -167,7 +237,14 @@
 						<header>
 							<h2>Galerie</h2>
 						</header>
-						<p> ici toutes les preuves en photos et en documents</p>
+						<hr class="star-dark mb-5">
+						<p><em>Available soon</em></p>
+						<!-- <p> ici toutes les preuves en photos et en documents</p>
+							2 carrousels => doc & photos
+						<p>Elementum sem parturient nulla quam placerat viverra
+								mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+								donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+								orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p> -->
 					</section>
 				<!-- Contact -->
 					<section id="contact" class="four">
@@ -177,20 +254,15 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
 							<form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Message (currently not available"></textarea>
 									</div>
 									<div class="col-12">
-										<input type="submit" value="Send Message" />
+										<input type="submit" value="Send Message" disabled />
 									</div>
 								</div>
 							</form>
@@ -205,7 +277,9 @@
 
 				<!-- Copyright -->
 				<ul class="copyright">
-					<li>&copy; Danielle Delfosse. All rights reserved.</li><li>Design: Prologue <a href="http://html5up.net/prologue">HTML5 UP</a></li>
+					<li>&copy; 2018 Danielle Delfosse.</li>
+					<li>Design: Prologue <a href="http://html5up.net/prologue">HTML5 UP</a></li><br>
+					<p>All rights reserved.</p>
 				</ul>
 
 			</div>
@@ -217,7 +291,6 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/main.js"></script>	
 	</body>
 </html>

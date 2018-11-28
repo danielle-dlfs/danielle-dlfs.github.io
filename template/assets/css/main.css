@@ -1926,18 +1926,21 @@ input, select, textarea {
 		table th {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
-			color: #fff;
-			background: #222729 url("images/overlay.png");
+			color:black ;
 		}
 
-		table thead {
-			background: #444;
+		thead th {
 			color: #fff;
 		}
+ 
+		table thead {
+			background: #444;
+		} 
 
 		table tfoot {
 			background: #eee;
 		}
+	
 
 /* Button */
 
@@ -2238,8 +2241,9 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image:  url("../../images/bg.png"), url("../../images/banner.jpg");
 			}
+
 
 			#main > section.two {
 				background-color: #f5fafa;
