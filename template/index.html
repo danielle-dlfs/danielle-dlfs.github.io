@@ -12,6 +12,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/animated.css" />
+		<link rel="stylesheet" href="assets/css/timeline.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/avatar.jpg" sizes="32x32" type="image/jpg">
 	</head>
@@ -33,7 +34,7 @@
 								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon fa-user">&Agrave; propos</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#cv" id="portfolio-link"><span class="icon fas fa-bookmark">Curriculum Vitae</span></a></li>
+								<!-- <li><a href="#cv" id="portfolio-link"><span class="icon fas fa-bookmark">C.V.</span></a></li> -->
 								<li><a href="#gallery" id="gallery-link"><span class="icon fa-picture-o">Galerie</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
@@ -59,7 +60,7 @@
 			<div id="main">
 
 				<!-- Intro -->
-				<section id="top" class="one">
+				<section id="top" class="one dark cover">
 					<div class="container">
 
 						<header>
@@ -77,49 +78,49 @@
 							<h2>&Agrave; propos</h2>
 						</header>
 
-						<div class="container">
-							<hr class="star-dark mb-5">
-							<div class="row">
-								<div class="col-lg-6 ml-auto">
-									<table class="table table-hover">
-										<tbody>
-											<tr>
-												<th colspan="2"><h3><span class="fa fa-user-secret"> Danielle Delfosse</span></h3></th>
-											</tr>
-											<tr>
-												<th class="font-weight-bold lead">Age</th>
-												<td class="lead">23 ans</td>
-											</tr>
-											<tr>
-												<th class="font-weight-bold lead">Ville</th>
-												<td class="lead" >Hannut, Belgique</td>
-											</tr>
-											<tr>
-												<th class="font-weight-bold lead">Email</th>
-												<td class="lead">delfosse.da@gmail.com</td>
-											</tr>
-											<tr>
-												<th class="font-weight-bold lead">Telephone</th>
-												<td class="lead">+32 498 63 09 11</td>
-											</tr>
-											<tr>
-												<th class="font-weight-bold lead">Permis de conduire</th>
-												<td class="lead">B (2 ans)</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
+						<hr>
+						<div class="row">
+							<div class="col-lg-6 ml-auto">
+								<table class="table table-hover">
+									<tbody>
+										<tr>
+											<th colspan="2"><h3><span class="fa fa-user-secret"> Danielle Delfosse</span></h3></th>
+										</tr>
+										<tr>
+											<th class="font-weight-bold lead">Age</th>
+											<td class="lead">23 ans</td>
+										</tr>
+										<tr>
+											<th class="font-weight-bold lead">Ville</th>
+											<td class="lead">Hannut, Belgique</td>
+										</tr>
+										<tr>
+											<th class="font-weight-bold lead">Email</th>
+											<td class="lead">delfosse.da@gmail.com</td>
+										</tr>
+										<tr>
+											<th class="font-weight-bold lead">Telephone</th>
+											<td class="lead">+32 498 63 09 11</td>
+										</tr>
+										<tr>
+											<th class="font-weight-bold lead">Permis de conduire</th>
+											<td class="lead">B (2 ans)</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 
-								<div class="col-lg-5 mr-auto text-justify">
-									<h3 class="bio">Biographie</h3>
-									<!-- <p class="lead">Born in the 90s and children of new technologies, so I naturally decided to study computer science.<br>
-										I am therefore for several years studying at the Ephec of Louvain la Neuve.<br>
-										I like web development and network administration. I also like traveling and human contact.
-									</p> -->
-									<p><em>Available soon</em></p>
-								</div>
+							<div class="col-lg-5 mr-auto text-justify">
+								<h3><span class="fa">Biographie</span></h3>
+								<!-- <p class="lead">Born in the 90s and children of new technologies, so I naturally decided to study computer science.<br>
+									I am therefore for several years studying at the Ephec of Louvain la Neuve.<br>
+									I like web development and network administration. I also like traveling and human contact.
+								</p> -->
+								<p><em>Available soon</em></p>
+								<!-- METTRE BOUTON CV x2 (voir et download) -->
 							</div>
 						</div>
+
 					</div>
 				</section>
 
@@ -130,186 +131,16 @@
 						<header>
 							<h2>Portfolio</h2>
 						</header>
-						<hr class="star-dark mb-5">
-						<!-- <p><em>Available soon</em></p> -->
-						<!-- <p>utiliser la maniere de l'autre template pour afficher toutes les activités </p>
-						<p>tableau en bouton modal (popup)</p>
-						<ol>
-							<li>conférences odoo (dev days x2 + conférence ephec - 9,25h)</li>
-							<li>Conférences opensource (FOSDEM 10h)								</li>
-							<li>autres conférences </li>
-							<li>technofutur dev</li>
-							<li>technofutur SQL</li>
-							<li>visites
-								
-							</li>
-							<li>Activitées EPHEC
-								(JPO - Temoignage - Speed-dating : 8h)
-							</li>
-						</ol> -->
-						
-						<!-- TIMELINE  -->
-						<div class="container-fluid">
-							<div class="row">
-								<div id="timeline">
-									<div class="row timeline-movement timeline-movement-top">
-										<div class="timeline-badge timeline-future-movement">
-												<p>2018</p>
-										</div>
-									</div>
-									<div class="row timeline-movement">
-										<div class="timeline-badge center-left">
-											
-										</div>
-										<div class="col-sm-6  timeline-item">
-											<div class="row">
-												<div class="col-sm-11">
-													<div class="timeline-panel credits  anim animate fadeInLeft">
-														<ul class="timeline-panel-ul">
-															<div class="lefting-wrap">
-																<li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-															</div>
-															<div class="righting-wrap">
-																<li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-																<li><span class="causale" style="color:#000; font-weight: 600;">Developer </span> </li>
-																<li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-																<li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 13/01/2018, 13:05"</small></p> </li>
-															</div>
-															<div class="clear"></div>
-														</ul>
-													</div>
-						
-												</div>
-											</div>
-										</div>
-									</div>
-						
-									<div class="row timeline-movement">
-										<div class="timeline-badge center-right">
-										
-										</div>
-										<div class="offset-sm-6 col-sm-6  timeline-item">
-											<div class="row">
-												<div class="offset-sm-1 col-sm-11">
-													<div class="timeline-panel debits  anim animate  fadeInRight">
-														<ul class="timeline-panel-ul">
-															<div class="lefting-wrap">
-																<li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-															</div>
-															<div class="righting-wrap">
-																<li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-																<li><span class="causale" style="color:#000; font-weight: 600;">Web Designer </span> </li>
-																<li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-																<li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 12/01/2018, 13:05"</small></p> </li>
-															</div>
-															<div class="clear"></div>
-														</ul>
-													</div>
-						
-												</div>
-											</div>
-										</div>
-									</div>
-						
-									<div class="row timeline-movement">
-										<div class="timeline-badge center-left">
-											
-										</div>
-										<div class="col-sm-6  timeline-item">
-											<div class="row">
-												<div class="col-sm-11">
-													<div class="timeline-panel credits  anim animate  fadeInLeft">
-														<ul class="timeline-panel-ul">
-															<div class="lefting-wrap">
-																<li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-															</div>
-															<div class="righting-wrap">
-																<li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-																<li><span class="causale" style="color:#000; font-weight: 600;">Engineer </span> </li>
-																<li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-																<li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/01/2018, 13:05"</small></p> </li>
-															</div>
-															<div class="clear"></div>
-														</ul>
-													</div>
-						
-												</div>
-											</div>
-										</div>
-									</div>
-									
-									<div class="row timeline-movement timeline-movement-top">
-										<div class="timeline-badge timeline-future-movement">
-												<p>2017</p>
-										</div>
-									</div>
-									
-									
-									<div class="row timeline-movement">
-										<div class="timeline-badge center-right">
-										
-										</div>
-										<div class="offset-sm-6 col-sm-6  timeline-item">
-											<div class="row">
-												<div class="offset-sm-1 col-sm-11">
-													<div class="timeline-panel debits  anim animate  fadeInRight">
-														<ul class="timeline-panel-ul">
-															<div class="lefting-wrap">
-																<li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-															</div>
-															<div class="righting-wrap">
-																<li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-																<li><span class="causale" style="color:#000; font-weight: 600;">Web Designer </span> </li>
-																<li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-																<li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 12/01/2018, 13:05"</small></p> </li>
-															</div>
-															<div class="clear"></div>
-														</ul>
-													</div>
-						
-												</div>
-											</div>
-										</div>
-									</div>
-									
-									
-									<div class="row timeline-movement">
-										<div class="timeline-badge center-left">
-											
-										</div>
-										<div class="col-sm-6  timeline-item">
-											<div class="row">
-												<div class="col-sm-11">
-													<div class="timeline-panel credits  anim animate  fadeInLeft">
-														<ul class="timeline-panel-ul">
-															<div class="lefting-wrap">
-																<li class="img-wraping"><a href="#"><img src="http://via.placeholder.com/250/000000" class="img-responsive" alt="user-image" /></a></li>
-															</div>
-															<div class="righting-wrap">
-																<li><a href="#" class="importo">Mussum ipsum cacilds</a></li>
-																<li><span class="causale" style="color:#000; font-weight: 600;">Engineer </span> </li>
-																<li><span class="causale">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span> </li>
-																<li><p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11/01/2018, 13:05"</small></p> </li>
-															</div>
-															<div class="clear"></div>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<hr>
 
 						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-							Tableau récapitulatif du portfolio
+						<button type="button" id="btn-portfolio" class="btn" data-toggle="modal" data-target="#exampleModal">
+								Tableau récapitulatif du portfolio
 						</button>
-							
+
 						<!-- Modal -->
 						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-								<div class="modal-dialog" role="document">
+							<div class="modal-dialog" role="document">
 									<div class="modal-content">
 										<div class="modal-header">
 											<h5 class="modal-title" id="exampleModalLabel">Tableau récapitulatif du portfolio</h5>
@@ -318,34 +149,95 @@
 											</button>
 										</div>
 										<div class="modal-body">
-											<table>
+											<table class="table-sm">
 												<thead>
 													<tr>
-														<th>Activité</th><th>Lieu</th><th>Date</th><th>Heures Prestées</th><th>Heures Valorisables</th><th>Preuves</th>
+														<th>Activité</th><th>Lieu</th><th>Date</th><th>Heures Prestées</th><th>Heures Valorisables</th><th>Lien</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
-														<td>FOSDEM</td><td>Bruxelles</td><td>02-2017</td><td>15H</td><td>10H</td><td>###</td>
+														<td>FOSDEM 2017</td><td>Bruxelles</td><td>02-2017</td>
+														<td>15H</td><td>10H</td>
+														<td>###</td>
 													</tr>
 													<tr>
-														<td>FOSDEM</td><td>Bruxelles</td><td>02-2017</td><td>15H</td><td>10H</td><td>###</td>
+														<td>Technofutur C#</td><td>Gosselies</td><td>04-2017</td>
+														<td>40H</td><td>5H</td>
+														<td>###</td>
 													</tr>
 													<tr>
-														<td>FOSDEM</td><td>Bruxelles</td><td>02-2017</td><td>15H</td><td>10H</td><td>###</td>
+														<td>Technofutur Java</td><td>Gosselies</td><td>08-2017</td>
+														<td>40H</td><td>5h</td>
+														<td>###</td>
 													</tr>
 													<tr>
-														<td>FOSDEM</td><td>Bruxelles</td><td>02-2017</td><td>15H</td><td>10H</td><td>###</td>
+														<td>Technofutur TSQL & Serveur SQL</td><td>Gosselies</td><td>08-2017</td>
+														<td>40H</td><td>5h</td>
+														<td>###</td>
 													</tr>
 													<tr>
-														<td>FOSDEM</td><td>Bruxelles</td><td>02-2017</td><td>15H</td><td>10H</td><td>###</td>
+														<td>Technofutur UML</td><td>Gosselies</td><td>08-2017</td>
+														<td>40H</td><td>10h</td>
+														<td>###</td>
 													</tr>
 													<tr>
-														<td>FOSDEM</td><td>Bruxelles</td><td>02-2017</td><td>15H</td><td>10H</td><td>###</td>
-													</tr>														
+														<td>Technofutur TSQL</td><td>Gosselies</td><td>08-2017</td>
+														<td>20H</td><td>5h</td>
+														<td>###</td>
+													</tr>
+				
+													<tr>
+														<td>JPO EPHEC</td><td>Louvain-la-Neuve</td><td>03-2016</td>
+														<td>2h</td><td>2h</td>
+														<td>###</td>
+													</tr>
+													<tr>
+														<td>Speed-dating avec les 3TI</td><td>Louvain-la-Neuve</td><td>02-2017</td>
+														<td>2H</td><td>2H</td>
+														<td>###</td>
+													</tr>
+													<tr>
+														<td>Vidéo TI EPHEC</td><td>Louvain-la-Neuve</td><td>04-2018</td>
+														<td>4H</td><td>4H</td><td>###</td>
+													</tr>	
+													<tr>
+														<td>Visite Econocom</td><td>Zaventem</td><td>04-2018</td>
+														<td>4H</td><td>4H</td>
+														<td>###</td>
+													</tr>
+													<tr>
+														<td>Visite EVS<td>Seraing</td><td>04-2018</td>
+														<td>4H</td><td>4H</td>
+														<td>###</td>
+													</tr>
+													<tr>
+														<td>Conférence Big Data du MIC</td><td>Louvain-la-Neuve</td><td>12-2017</td>
+														<td>4H</td><td>4H</td>
+														<td>###</td>				
+													</tr>
+													<tr>
+														<td>Dev Day du MIC</td><td>Mons</td><td>11-2017</td>
+														<td>8H</td><td>8H</td>
+														<td>###</td>				
+													</tr>
+													<tr>
+														<td>Odoo Dev Days</td><td>Louvain-la-Neuve</td><td>11-2017</td>
+														<td>5h</td><td>5h</td>
+														<td>###</td>				
+													</tr>
+													<tr>
+														<td>Conférence Oddo</td><td>Louvain-la-Neuve</td><td>11-2018</td>
+														<td>1H</td><td>1H</td>
+														<td>###</td>				
+													</tr>
+													<tr>
+														<td>Conférence Test Driven Dev</td><td>Louvain-la-Neuve</td><td>11-2017</td>
+														<td>1H</td><td>1H</td>
+														<td>###</td>				
+													</tr>
 												</tbody>
 											</table>
-											<p><em>Available soon</em></p>
 										</div> 
 										<div class="modal-footer">
 											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -353,24 +245,116 @@
 									</div>
 								</div>
 						</div>
+						
+						<!-- TIMELINE  -->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="main-timeline">
+										<div class="timeline">
+											<div class="timeline-content timeline-panel credits  anim animate fadeInLeft">
+												<div class="circle"><span class="tl-logo odoo"><img src="images/odoo.png"></span></div>
+												<div class="content">
+													<span class="year">Odoo</span>
+													<h4 class="title">Odoo Dev days et conférence EPHEC</h4>
+													<p class="description">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+													</p>
+													<div class="tl-icon"><span></span></div>
+												</div>
+											</div>
+										</div>
+										<div class="timeline">
+											<div class="timeline-content timeline-panel credits  anim animate fadeInRight">
+												<div class="circle"><span class="image tl-logo fosdem"><img src="images/FOSDEM.png"></span></div>
+												<div class="content">
+													<span class="year">FOSDEM</span>
+													<h4 class="title">Weekend sur open source</h4>
+													<p class="description">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+									
+													</p>
+													<div class="tl-icon"><span></span></div>
+												</div>
+											</div>
+										</div>
+										<div class="timeline">
+											<div class="timeline-content timeline-panel credits anim animate fadeInLeft">
+												<div class="circle"><span><i class="icon fa-globe"></i></span></div>
+												<div class="content">
+													<span class="year">Conférence</span>
+													<h4 class="title">TDD BIG DATA, mobile programming, ...
+
+													</h4>
+													<p class="description">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+														</p>
+													<div class="tl-icon"><span></span></div>
+												</div>
+											</div>
+										</div>
+										<div class="timeline">
+											<div class="timeline-content timeline-panel credits  anim animate fadeInRight">
+												<div class="circle"><span class="image tl-logo technofutur"><img src="images/technofutur.jpg"></span></div>
+												<div class="content">
+													<span class="year">Technofutur Dev</span>
+													<h4 class="title">C# Java</h4>
+													<p class="description">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. </p>
+													<div class="tl-icon"><span></span></div>
+												</div>
+											</div>
+										</div>
+										<div class="timeline">
+											<div class="timeline-content timeline-panel credits anim animate fadeInLeft">
+												<div class="circle"><span class="image tl-logo technofutur"><img src="images/technofutur.jpg"></span></div>
+												<div class="content">
+													<span class="year">Technofutur SQL</span>
+													<h4 class="title">Web Developer</h4>
+													<p class="description">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. </p>
+													<div class="tl-icon"><span></span></div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="timeline">
+											<div class="timeline-content timeline-panel credits anim animate fadeInRight">
+												<div class="circle"><span class="image tl-logo ephec"><img src="images/ephec.png"></span></div>
+												<div class="content">
+													<span class="year">Activités EPHEC</span>
+													<h4 class="title">Speed-dating - temoignage - job day ...</h4>
+													<p class="description">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+													</p>
+													<div class="tl-icon"><span></span></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</section>
 
-				<!-- CV -->
-				<section id="cv" class="four">
-					<header>
-						<h2>CV</h2>
-					</header>
-					<hr class="star-dark mb-5">
-				</section>
-
 				<!-- Galerie -->
-				<section id="gallery" class="five">
-					<header>
-						<h2>Galerie</h2>
-					</header>
-					<hr class="star-dark mb-5">
-					<p><em>Available soon</em></p>
+				<section id="gallery" class="four">
+					<div class="container">
+						<header>
+							<h2>Galerie</h2>
+						</header>
+						<hr>
+						<p><em>Available soon</em></p>
+					</div>
+					
 					<!-- <p> ici toutes les preuves en photos et en documents</p>
 						2 carrousels => doc & photos
 					<p>Elementum sem parturient nulla quam placerat viverra
@@ -380,7 +364,7 @@
 				</section>
 
 				<!-- Contact -->
-				<section id="contact" class="six">
+				<section id="contact" class="five">
 					<div class="container">
 
 						<header>
