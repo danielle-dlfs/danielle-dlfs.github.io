@@ -34,9 +34,8 @@
 								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon fa-user">&Agrave; propos</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
-								<!-- <li><a href="#cv" id="portfolio-link"><span class="icon fas fa-bookmark">C.V.</span></a></li> -->
 								<li><a href="#gallery" id="gallery-link"><span class="icon fa-picture-o">Galerie</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
+								<!-- <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li> -->
 							</ul>
 						</div>
 
@@ -64,7 +63,7 @@
 					<div class="container">
 
 						<header>
-							<h2 class="alt">Bienvenue sur mon PortFolio</h2>
+							<h2 class="alt">Bienvenue sur mon PortFolio</h2>							
 							<p><strong>Je suis Danielle Delfosse, étudiante en dernière année de Bachelier en <br>Technologie de l'informatique à l'EPHEC Louvain-la-Neuve</strong></p>
 						</header>
 					</div>
@@ -80,7 +79,7 @@
 
 						<hr>
 						<div class="row">
-							<div class="col-lg-6 ml-auto">
+							<div class="col-lg-6 ml-5">
 								<table class="table table-hover">
 									<tbody>
 										<tr>
@@ -109,16 +108,6 @@
 									</tbody>
 								</table>
 							</div>
-
-							<div class="col-lg-5 mr-auto text-justify">
-								<h3><span class="fa">Biographie</span></h3>
-								<!-- <p class="lead">Born in the 90s and children of new technologies, so I naturally decided to study computer science.<br>
-									I am therefore for several years studying at the Ephec of Louvain la Neuve.<br>
-									I like web development and network administration. I also like traveling and human contact.
-								</p> -->
-								<p><em>Available soon</em></p>
-								<!-- METTRE BOUTON CV x2 (voir et download) -->
-							</div>
 						</div>
 
 					</div>
@@ -135,115 +124,246 @@
 
 						<!-- Button trigger modal -->
 						<button type="button" id="btn-portfolio" class="btn" data-toggle="modal" data-target="#exampleModal">
-								Tableau récapitulatif du portfolio
+							Tableau récapitulatif du portfolio
 						</button>
 
 						<!-- Modal -->
 						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog" role="document">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title" id="exampleModalLabel">Tableau récapitulatif du portfolio</h5>
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Tableau récapitulatif du portfolio</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<!-- Acti 1 -->
+										<table class="table-sm">
+												<thead>
+													<tr>
+														<th>Autour d'Odoo</th>
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Odoo Dev Days 2016</td><td>Louvain-la-Neuve</td><td>11-2017</td>
+														<td>3h</td><td>3h</td>
+														<td><i class="icon fa-link"></i></td>				
+													</tr>
+													<tr>
+														<td>Odoo Dev Days 2018</td><td>Louvain-la-Neuve</td><td>11-2017</td>
+														<td>3h</td><td>3h</td>
+														<td><a href="inc/activities.html"><i class="icon fa-link"></i></a></td>				
+													</tr>
+													<tr>
+														<td>Conférence Odoo</td><td>Louvain-la-Neuve</td><td>11-2018</td>
+														<td>1H</td><td>1H</td>
+														<td><i class="icon fa-link"></i></td>				
+													</tr>
+												</tbody>	
+											</table>
+											
+											<!-- Acti 2  -->
 											<table class="table-sm">
 												<thead>
 													<tr>
-														<th>Activité</th><th>Lieu</th><th>Date</th><th>Heures Prestées</th><th>Heures Valorisables</th><th>Lien</th>
+														<th>Autour de l'Open Source</th>
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
 													</tr>
 												</thead>
 												<tbody>
 													<tr>
 														<td>FOSDEM 2017</td><td>Bruxelles</td><td>02-2017</td>
 														<td>15H</td><td>10H</td>
-														<td>###</td>
+														<td><i class="icon fa-link"></i></td>
 													</tr>
+												</tbody>	
+											</table>
+											
+											<!-- Acti 3 -->
+											<table class="table-sm">
+												<thead>
 													<tr>
-														<td>Technofutur C#</td><td>Gosselies</td><td>04-2017</td>
-														<td>40H</td><td>5H</td>
-														<td>###</td>
+														<th>Conférences</th>
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
 													</tr>
-													<tr>
-														<td>Technofutur Java</td><td>Gosselies</td><td>08-2017</td>
-														<td>40H</td><td>5h</td>
-														<td>###</td>
-													</tr>
-													<tr>
-														<td>Technofutur TSQL & Serveur SQL</td><td>Gosselies</td><td>08-2017</td>
-														<td>40H</td><td>5h</td>
-														<td>###</td>
-													</tr>
-													<tr>
-														<td>Technofutur UML</td><td>Gosselies</td><td>08-2017</td>
-														<td>40H</td><td>10h</td>
-														<td>###</td>
-													</tr>
-													<tr>
-														<td>Technofutur TSQL</td><td>Gosselies</td><td>08-2017</td>
-														<td>20H</td><td>5h</td>
-														<td>###</td>
-													</tr>
-				
-													<tr>
-														<td>JPO EPHEC</td><td>Louvain-la-Neuve</td><td>03-2016</td>
-														<td>2h</td><td>2h</td>
-														<td>###</td>
-													</tr>
-													<tr>
-														<td>Speed-dating avec les 3TI</td><td>Louvain-la-Neuve</td><td>02-2017</td>
-														<td>2H</td><td>2H</td>
-														<td>###</td>
-													</tr>
-													<tr>
-														<td>Vidéo TI EPHEC</td><td>Louvain-la-Neuve</td><td>04-2018</td>
-														<td>4H</td><td>4H</td><td>###</td>
-													</tr>	
-													<tr>
-														<td>Visite Econocom</td><td>Zaventem</td><td>04-2018</td>
-														<td>4H</td><td>4H</td>
-														<td>###</td>
-													</tr>
-													<tr>
-														<td>Visite EVS<td>Seraing</td><td>04-2018</td>
-														<td>4H</td><td>4H</td>
-														<td>###</td>
-													</tr>
+												</thead>
+												<tbody>
 													<tr>
 														<td>Conférence Big Data du MIC</td><td>Louvain-la-Neuve</td><td>12-2017</td>
 														<td>4H</td><td>4H</td>
-														<td>###</td>				
+														<td><i class="icon fa-link"></i></td>				
 													</tr>
 													<tr>
 														<td>Dev Day du MIC</td><td>Mons</td><td>11-2017</td>
 														<td>8H</td><td>8H</td>
-														<td>###</td>				
+														<td><i class="icon fa-link"></i></td>				
 													</tr>
-													<tr>
-														<td>Odoo Dev Days</td><td>Louvain-la-Neuve</td><td>11-2017</td>
-														<td>5h</td><td>5h</td>
-														<td>###</td>				
-													</tr>
-													<tr>
-														<td>Conférence Oddo</td><td>Louvain-la-Neuve</td><td>11-2018</td>
-														<td>1H</td><td>1H</td>
-														<td>###</td>				
-													</tr>
+													
 													<tr>
 														<td>Conférence Test Driven Dev</td><td>Louvain-la-Neuve</td><td>11-2017</td>
 														<td>1H</td><td>1H</td>
-														<td>###</td>				
-													</tr>
-												</tbody>
+														<td><i class="icon fa-link"></i></td>
+													</tr>	
+												</tbody>	
 											</table>
-										</div> 
-										<div class="modal-footer">
-											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-										</div>
+											<!-- Acti 4 -->
+											<table class="table-sm">
+												<thead>
+													<tr>
+														<th>Formations Technofutur dev</th>
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Formation C#</td><td>Gosselies</td><td>04-2017</td>
+														<td>40H</td><td>5H</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+													<tr>
+														<td>Formation Java</td><td>Gosselies</td><td>08-2017</td>
+														<td>40H</td><td>5h</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+													<tr>
+														<td>Formation Angular</td><td>Louvain-la-Neuve</td><td>11-2018</td>
+														<td>14H</td><td>10H</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+												</tbody>	
+											</table>
+											
+											<!-- Acti 5 -->
+											<table class="table-sm">
+												<thead>
+													<tr>
+														<th>Formations Technofutur SQL</th>
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Technofutur TSQL & Serveur SQL</td><td>Gosselies</td><td>08-2017</td>
+														<td>40H</td><td>10H</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+												</tbody>	
+											</table>
+											
+											<!-- Acti 6 -->
+											<table class="table-sm">
+												<thead>
+													<tr>
+														<th>Formations Technofutur modélisation</th> 
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Technofutur UML</td><td>Gosselies</td><td>08-2017</td>
+														<td>40H</td><td>10h</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+												</tbody>	
+											</table>
+											
+											<!-- Acti 7 -->
+											<table class="table-sm">
+												<thead>
+													<tr>
+														<th>Visites d'entreprises</th>
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Visite Econocom</td><td>Zaventem</td><td>04-2018</td>
+														<td>4H</td><td>4H</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+													<tr>
+														<td>Visite EVS<td>Seraing</td><td>04-2018</td>
+														<td>4H</td><td>4H</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+												</tbody>	
+											</table>
+											<!-- Acti 8 -->
+											<table class="table-sm">
+												<thead>
+													<tr>
+														<th>Activitées dans le cadre de l'EPHEC</th>
+														<th>Lieu</th>
+														<th>Date</th>
+														<th>Heures Prestées</th>
+														<th>Heures Valorisables</th>
+														<th>Lien</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>JPO EPHEC</td><td>Louvain-la-Neuve</td><td>03-2016</td>
+														<td>2h</td><td>2h</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+													<tr>
+														<td>Speed-dating avec les 3TI</td><td>Louvain-la-Neuve</td><td>02-2017</td>
+														<td>2H</td><td>2H</td>
+														<td><i class="icon fa-link"></i></td>
+													</tr>
+													<tr>
+														<td>Vidéo TI EPHEC</td><td>Louvain-la-Neuve</td><td>04-2018</td>
+														<td>4H</td><td>4H</td><td><i class="icon fa-link"></i></td>
+													</tr>
+													<tr>
+														<td>SIEP</td><td>Bruxelles</td><td>11-2018</td>
+														<td>4H</td><td>4H</td>
+														<td><i class="icon fa-link"></i></td>				
+													</tr>
+													<tr>
+														<td>Lunch Cisco</td><td>Louvain-la-Neuve</td><td>11-2018</td>
+														<td>4H</td><td>4H</td>
+														<td><i class="icon fa-link"></i></td>				
+													</tr>
+												</tbody>	
+											</table>
+									</div> 
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 									</div>
-								</div>
+								</div>			
+							</div>
 						</div>
 						
 						<!-- TIMELINE  -->
@@ -253,13 +373,13 @@
 									<div class="main-timeline">
 										<div class="timeline">
 											<div class="timeline-content timeline-panel credits  anim animate fadeInLeft">
-												<div class="circle"><span class="tl-logo odoo"><img src="images/odoo.png"></span></div>
+												<div class="circle"><span class="tl-logo odoo"><img src="images/portfolio/odoo.png"></span></div>
 												<div class="content">
 													<span class="year">Odoo</span>
-													<h4 class="title">Odoo Dev days et conférence EPHEC</h4>
+													<h4 class="title">Activité</h4>
 													<p class="description">
-															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
-															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
 													</p>
 													<div class="tl-icon"><span></span></div>
 												</div>
@@ -267,10 +387,10 @@
 										</div>
 										<div class="timeline">
 											<div class="timeline-content timeline-panel credits  anim animate fadeInRight">
-												<div class="circle"><span class="image tl-logo fosdem"><img src="images/FOSDEM.png"></span></div>
+												<div class="circle"><span class="image tl-logo fosdem"><img src="images/portfolio/fosdem.png"></span></div>
 												<div class="content">
 													<span class="year">FOSDEM</span>
-													<h4 class="title">Weekend sur open source</h4>
+													<h4 class="title"><a href="inc/fosdem.html">Activité</a></h4>
 													<p class="description">
 														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
 														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
@@ -282,39 +402,38 @@
 										</div>
 										<div class="timeline">
 											<div class="timeline-content timeline-panel credits anim animate fadeInLeft">
-												<div class="circle"><span><i class="icon fa-globe"></i></span></div>
+												<div class="circle"><span class="image tl-logo technofutur"><img src="images/portfolio/technofutur.png"></span></div>
 												<div class="content">
-													<span class="year">Conférence</span>
-													<h4 class="title">TDD BIG DATA, mobile programming, ...
-
-													</h4>
+													<span class="year">Technofutur SQL</span>
+													<h4 class="title">Activité</h4>
 													<p class="description">
-															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
-															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
-														</p>
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+													</p>
 													<div class="tl-icon"><span></span></div>
 												</div>
 											</div>
 										</div>
 										<div class="timeline">
 											<div class="timeline-content timeline-panel credits  anim animate fadeInRight">
-												<div class="circle"><span class="image tl-logo technofutur"><img src="images/technofutur.jpg"></span></div>
+												<div class="circle"><span class="image tl-logo technofutur"><img src="images/portfolio/technofutur.png"></span></div>
 												<div class="content">
 													<span class="year">Technofutur Dev</span>
-													<h4 class="title">C# Java</h4>
+													<h4 class="title">Activité</h4>
 													<p class="description">
-															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
-															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. </p>
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+													</p>
 													<div class="tl-icon"><span></span></div>
 												</div>
 											</div>
 										</div>
 										<div class="timeline">
 											<div class="timeline-content timeline-panel credits anim animate fadeInLeft">
-												<div class="circle"><span class="image tl-logo technofutur"><img src="images/technofutur.jpg"></span></div>
+												<div class="circle"></span><span><i class="icon fa-globe"></i></div>
 												<div class="content">
-													<span class="year">Technofutur SQL</span>
-													<h4 class="title">Web Developer</h4>
+													<span class="year">Visites</span>
+													<h4 class="title">Activité</h4>
 													<p class="description">
 														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
 														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. </p>
@@ -325,13 +444,13 @@
 										
 										<div class="timeline">
 											<div class="timeline-content timeline-panel credits anim animate fadeInRight">
-												<div class="circle"><span class="image tl-logo ephec"><img src="images/ephec.png"></span></div>
+												<div class="circle"><span class="image tl-logo ephec"><img src="images/portfolio/ephec.png"></span></div>
 												<div class="content">
 													<span class="year">Activités EPHEC</span>
-													<h4 class="title">Speed-dating - temoignage - job day ...</h4>
+													<h4 class="title">Activité</h4>
 													<p class="description">
-															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
-															Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. 
+														Nam ultricies laoreet massa sed maximus. Curabitur tristique sagittis scelerisque. 
 													</p>
 													<div class="tl-icon"><span></span></div>
 												</div>
@@ -340,8 +459,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						
+						</div>	
 					</div>
 				</section>
 
@@ -352,19 +470,13 @@
 							<h2>Galerie</h2>
 						</header>
 						<hr>
-						<p><em>Available soon</em></p>
+						<p></p>
+						
 					</div>
-					
-					<!-- <p> ici toutes les preuves en photos et en documents</p>
-						2 carrousels => doc & photos
-					<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p> -->
 				</section>
 
 				<!-- Contact -->
-				<section id="contact" class="five">
+				<!-- <section id="contact" class="five">
 					<div class="container">
 
 						<header>
@@ -383,9 +495,8 @@
 								</div>
 							</div>
 						</form>
-
 					</div>
-				</section>
+				</section> -->
 			</div>
 
 		<!-- Footer -->
