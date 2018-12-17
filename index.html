@@ -112,7 +112,31 @@
 						</div>
 						
 						<div class="col-lg-5 ml-3">
-							<input type="button" value="Curriculum Vitae" disabled />
+							<button type="button" id="btn-cv" class="btn btn-lg btn-block btn-outline-dark" data-toggle="modal" data-target="#cvModal">
+								Mon Curriculum Vitae
+							</button>
+							<div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalLabel" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">												
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<span class="image cv"><img src="images/CV.jpg"></span>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>			
+								</div>
+							</div>
+							<br>
+							
+							<a href="images/Delfosse Danielle - CV.pdf" class="btn btn-info btn-lg btn-block">
+								<span class="fa fa-download">Telecharger le CV ! </span>
+							</a>
 						</div>
 						
 					</div>					
@@ -130,12 +154,12 @@
 					<hr>
 
 					<!-- Button trigger modal -->
-					<button type="button" id="btn-portfolio" class="btn" data-toggle="modal" data-target="#exampleModal">
+					<button type="button" id="btn-portfolio" class="btn" data-toggle="modal" data-target="#portfolioModal">
 						Tableau récapitulatif du portfolio
 					</button>
 
 					<!-- Modal -->
-					<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModalLabel" aria-hidden="true">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -349,6 +373,11 @@
 												<td><a href="inc/activities.html#video"><i class="icon fa-paperclip"></i></a></td>
 											</tr>
 											<tr>
+												<td>Job Day</td><td>EPHEC LLN</td><td>05-2018</td>
+												<td>4H</td><td>4H</td>
+												<td><a href="inc/activities.html"><i class="icon fa-paperclip"></i></a></td>				
+											</tr>
+											<tr>
 												<td>Lunch Cisco</td><td>Louvain-la-Neuve</td><td>03-2018</td>
 												<td>4H</td><td>4H</td>
 												<td><a href="inc/activities.html#cisco"><i class="icon fa-paperclip"></i></a></td>				
@@ -375,7 +404,7 @@
 								<div class="main-timeline">
 									<div class="timeline">
 										<div class="timeline-content timeline-panel credits  anim animate fadeInLeft">
-											<div class="circle"><span class="tl-logo odoo"><img src="images/portfolio/odoo.png"></span></div>
+											<div class="circle"><span class="tl-logo odoo"><img src="images/tableau/odoo.png"></span></div>
 											<div class="content">
 												<span class="year">Autour d'Odoo</span>
 												<h4 class="title"><a href="inc/odoo.html">Résumé</a></h4>
@@ -389,7 +418,7 @@
 
 									<div class="timeline">
 										<div class="timeline-content timeline-panel credits  anim animate fadeInRight">
-											<div class="circle"><span class="image tl-logo fosdem"><img src="images/portfolio/fosdem.png"></span></div>
+											<div class="circle"><span class="image tl-logo fosdem"><img src="images/tableau/fosdem.png"></span></div>
 											<div class="content">
 												<span id="fosdem" class="year">Autour de l'Open Source</span>
 												<h4 class="title"><a href="inc/fosdem.html">Résumé</a></h4>
@@ -417,7 +446,7 @@
 
 									<div class="timeline">
 										<div class="timeline-content timeline-panel credits anim animate fadeInRight">
-											<div class="circle"><span class="image tl-logo technofutur"><img src="images/portfolio/technofutur.png"></span></div>
+											<div class="circle"><span class="image tl-logo technofutur"><img src="images/tableau/technofutur.png"></span></div>
 											<div class="content">
 												<span class="year">Technofutur Data</span>
 												<h4 class="title"><a href="inc/technofutur02.html">Résumé</a></h4>
@@ -431,7 +460,7 @@
 
 									<div class="timeline">
 										<div class="timeline-content timeline-panel credits  anim animate fadeInLeft">
-											<div class="circle"><span class="image tl-logo technofutur"><img src="images/portfolio/technofutur.png"></span></div>
+											<div class="circle"><span class="image tl-logo technofutur"><img src="images/tableau/technofutur.png"></span></div>
 											<div class="content">
 												<span class="year">Technofutur Dev</span>
 												<h4 class="title"><a href="inc/technofutur01.html">Résumé</a></h4>
@@ -459,7 +488,7 @@
 									
 									<div class="timeline">
 										<div class="timeline-content timeline-panel credits anim animate fadeInLeft">
-											<div class="circle"><span class="image tl-logo ephec"><img src="images/portfolio/ephec.png"></span></div>
+											<div class="circle"><span class="image tl-logo ephec"><img src="images/tableau/ephec.png"></span></div>
 											<div class="content">
 												<span class="year">Activités EPHEC</span>
 												<h4 class="title"><a href="inc/activities.html">Résumé</a></h4>
