@@ -214,14 +214,6 @@ input, select, textarea {
 		clear: both;
 	}
 
-	#portfolioModal .modal-dialog {
-		max-width: 75%;
-	}
-
-	#cv-modal .modal-dialog{
-		max-width: 60%;
-	}
-
 	.modal-body img {
 		display: block;
 		width:100%;
@@ -2333,6 +2325,15 @@ input, select, textarea {
 				margin-left: 300px;
 			}
 
+		/* Modal  */
+		#portfolioModal .modal-dialog {
+			max-width: 75%;
+		}
+	
+		#cv-modal .modal-dialog{
+			max-width: 60%;
+		}
+
 	}
 
 /* Normal */
@@ -2347,6 +2348,14 @@ input, select, textarea {
 
 			#main section.cover {
 				padding: 5em 0;
+			}
+		/* Modal	 */
+			#portfolioModal .modal-dialog {
+				max-width: 75%;
+			}
+		
+			#cv-modal .modal-dialog{
+				max-width: 60%;
 			}
 
 	}
@@ -2375,6 +2384,15 @@ input, select, textarea {
 
 			.item {
 				margin-bottom: 20px;
+			}
+
+		/* Modal */
+			#portfolioModal .modal-dialog {
+				max-width: 75%;
+			}
+		
+			#cv-modal .modal-dialog{
+				max-width: 60%;
 			}
 
 		/* Header */
