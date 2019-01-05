@@ -152,6 +152,12 @@ input, select, textarea {
 		color:black ;
 	}
 
+	.carousel-caption > h3 {
+		/* margin-bottom: 0.2em; */
+		color: whitesmoke;
+		font-weight:200;
+	}
+
 	header {
 		margin: 0 0 2em 0;
 	}
@@ -217,6 +223,25 @@ input, select, textarea {
 	.modal-body img {
 		display: block;
 		width:100%;
+	}
+
+	.carousel-img {
+		max-width: 80%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		/* margin-bottom: 0.5em; */
+	}
+
+	.carousel-img-sm {
+		height: 25%;
+		width:auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.carousel > .icon {
+		margin-top:3em;
 	}
 
 /* Container */
