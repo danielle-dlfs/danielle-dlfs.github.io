@@ -251,6 +251,9 @@ input, select, textarea {
 	#cv-modal .modal-dialog{
 		max-width: 60%;
 	}
+	.custom-modal .modal-dialog{
+		max-width: 80%;
+	}
 
 /* Container */
 
@@ -2363,8 +2366,8 @@ input, select, textarea {
 			max-width: 75%;
 		}
 	
-		#cv-modal .modal-dialog{
-			max-width: 60%;
+		.custom-modal .modal-dialog{
+			max-width: 80%;
 		}
 
 	}
@@ -2389,6 +2392,10 @@ input, select, textarea {
 		
 			#cv-modal .modal-dialog{
 				max-width: 60%;
+			}
+
+			.custom-modal .modal-dialog{
+				max-width: 80%;
 			}
 
 	}
@@ -2426,6 +2433,10 @@ input, select, textarea {
 		
 			#cv-modal .modal-dialog{
 				max-width: 60%;
+			}
+
+			.custom-modal .modal-dialog{
+				max-width: 80%;
 			}
 
 		/* Header */
