@@ -13,7 +13,6 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/animated.css" />
-		<link rel="stylesheet" href="assets/css/timeline.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/avatar.jpg" sizes="32x32" type="image/jpg">
 	</head>
@@ -35,7 +34,6 @@
 						<li><a href="index.html"><span class="icon fa-home">Accueil</span></a></li>
 						<li><a href="#sql"><span class="icon fa-user">SQL</span></a></li>
 						<li><a href="#uml"><span class="icon fa-th">UML</span></a></li>
-						<li><a href="#gallery"><span class="icon fa-picture-o">Galerie</span></a></li>
 					</ul>
 				</div>
 
@@ -95,6 +93,33 @@
 							</ul>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col">
+							<button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#jpo-modal">
+								Attestation de participation
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade custom-modal" id="jpo-modal" tabindex="-1" role="dialog" aria-labelledby="title-jpo-modal" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="title-jpo-modal">Attestation de participation</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<span class="image"><img src="images/technofutur/attestation-sql.jpg" /></span>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 
@@ -112,20 +137,34 @@
 						Cette formation m'a permis de mieux appréhender le concept de modélisation qui avait été vu dans le cadre du cours de Mr Faulkner. Pour les élèves qui étaient en difficulté dans son cours (incluant moi-même), cette semaine de formation a permis de revoir d'une autre manière la même matière.
 					</p>
 					<p>Durant la formation, nous avons appris à modéliser différents type de diagrammes. Le formateur nous a donné pas mal d'exercices pour nous entrainer et suivait de près notre progression.</p>
-				</div>
-			</section>
+					<div class="row">
+						<div class="col">
+							<button type="button" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#uml-modal">
+								Attestation de participation
+							</button>
 
-			<!--  -->
-			<section id="gallery" class="four">		
-				<div class="container">
-					<header>
-						<h2>Galerie</h2>
-					</header>
-					<hr>
-					<p>
-						<i>Available Soon</i>
-					</p>
-				</div>			
+							<!-- Modal -->
+							<div class="modal fade custom-modal" id="uml-modal" tabindex="-1" role="dialog" aria-labelledby="title-uml-modal" aria-hidden="true">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="title-uml-modal">Attestation de participation</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											<span class="image"><img src="images/technofutur/attestation-uml.jpg" /></span>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>    
 
@@ -148,8 +187,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>	
-			<script src="assets/js/scrolly.js"></script>	
+			<script src="assets/js/main.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>		
